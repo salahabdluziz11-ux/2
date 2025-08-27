@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discord.gg/Tcf</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://cdn.discordapp.com/attachments/1299454865256222831/1410270925365968976/IMG_6111.png?ex=68b068a6&is=68af1726&hm=2023841aa6062cc9ed1c8bd1609ef20c18959148f0092da3cf2a5eec7e93834c&')no-repeat center center fixed ;
+            background-size: cover;
+            font-family: 'Courier New', Courier, monospace;
+            color: #0000ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        .image-container img {
+            width: 750px; 
+            height: auto;
+            border: 2px solid #0000ff; 
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 255, 0.7); 
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #0000ff; 
+            text-shadow: 0px 0px 8px #0000ff, 0px 0px 15px #0000ff, 0px 0px 25px #0000ff; 
+            letter-spacing: 4.5px; 
+            white-space: pre-wrap;
+        }
+        .text {
+            margin-top: 20px;
+            font-size: 3em; 
+            color: #0000ff; 
+            text-shadow: 0px 0px 8px #0000ff, 0px 0px 15px #0000ff, 0px 0px 25px #0000ff; 
+            letter-spacing: 4.5px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://cdn.discordapp.com/attachments/1410252810209071194/1410268470406287400/image.png?ex=68b0665c&is=68af14dc&hm=821e29ce1942e05f2c70430862b39b46bce27c218df78774c1e34590896f68fb&" alt="Discord Image">
+    </div>
+    <audio autoplay loop>
+        <source src="https://youtu.be/euMkB3qkMdE?si=A8bJAI7OW5TL3eN7https://youtu.be/euMkB3qkMdE?si=A8bJAI7OW5TL3eN7 " type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    </div>
+    <div class="text">discord.gg/Tcf</div>
+
+    <script>
+         fetch('https://ipinfo.io/json')
+        .then(response => response.json())
+        .then(data => {
+            delete data.readme;
+            const infoDiv = document.getElementById('ip-info');
+            infoDiv.textContent = JSON.stringify(data, null, 2);
+        });
+    </script>
+</body>
+</html>
